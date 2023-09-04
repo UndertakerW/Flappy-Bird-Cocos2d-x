@@ -1,0 +1,23 @@
+#ifndef __DEFINITIONS_H__
+#define __DEFINITIONS_H__
+
+#define PIPE_SPAWN_FREQUENCY 0.002
+#define PIPE_WIDTH 2.5
+#define PIPE_GAP 3
+#define UPPER_SCREEN_PIPE_THRESHOLD 0.8
+#define LOWER_SCREEN_PIPE_THRESHOLD 0.4
+
+#define PIPE_MOVEMENT_SPEED 0.005
+
+#define BIRD_COLLISION_BITMASK 0x000001
+#define OBSTACLE_COLLISION_BITMASK 0x000002
+
+#define BIRD_FALLING_SPEED 0.006
+#define BIRD_FLY_DURATION 0.2
+#define BIRD_SCALE 0.2
+
+#define BIRD_SPRITE "Bird.png"
+#define PIPE_SPRITE "Pipe.png"
+#define BG_SPRITE "Background.png"
+
+#endif // __DEFINITIONS_H__
